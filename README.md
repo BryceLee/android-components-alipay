@@ -3,23 +3,24 @@ A android component of alipay.
 
 ## How to use?
 ```
-Step 1.Add it in your root build.gradle at the end of repositories:
+不知道为何，上传到jitpack无法正常依赖，暂时以源代码形式使用。
+<!--Step 1.Add it in your root build.gradle at the end of repositories:-->
 
-    allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-Step 2. Add the dependency
-    repositories {
-       flatDir {
-        dirs 'libs', '../component_alipay/libs'
-        }
-    }
-	dependencies {
-    	implementation 'com.github.BryceLee:android-components-alipay:1.0'
-    }
+    <!--allprojects {-->
+		<!--repositories {-->
+			<!--...-->
+			<!--maven { url 'https://jitpack.io' }-->
+		<!--}-->
+	<!--}-->
+<!--Step 2. Add the dependency-->
+    <!--repositories {-->
+       <!--flatDir {-->
+        <!--dirs 'libs', '../component_alipay/libs'-->
+        <!--}-->
+    <!--}-->
+	<!--dependencies {-->
+    	<!--implementation 'com.github.BryceLee:android-components-alipay:1.0'-->
+    <!--}-->
 ```
 
 ```

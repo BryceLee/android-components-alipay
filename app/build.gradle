@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
-
+repositories {
+    flatDir {
+        dirs 'libs', '../component_alipay/libs'
+    }
+}
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -25,4 +29,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //implementation 'com.github.BryceLee:android-components-alipay:1.0'
+    api project(':component_alipay')
 }

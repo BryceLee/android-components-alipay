@@ -4,7 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.BryceLee'
 repositories {
   flatDir {
-    dirs 'libs', '../lib-third-party/libs'
+    dirs 'libs', '../component_alipay/libs'
   }
 }
 android {
@@ -35,5 +35,5 @@ dependencies {
   androidTestImplementation 'com.android.support.test:runner:1.0.2'
   androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
   // 支付宝 SDK AAR 包所需的配置
-  api (name: 'alipaySdk-15.6.8-20191021122514', ext: 'aar')
+  compile (name: 'alipaySdk-15.6.8-20191021122514', ext: 'aar')
 }

@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.BryceLee'
 repositories {
   flatDir {
     dirs 'libs', '../lib-third-party/libs'

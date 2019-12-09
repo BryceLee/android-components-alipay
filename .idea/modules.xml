@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-components-alipay.iml" filepath="$PROJECT_DIR$/android-components-alipay.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/component_wechatpay/component_wechatpay.iml" filepath="$PROJECT_DIR$/component_wechatpay/component_wechatpay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component_alipay/component_alipay.iml" filepath="$PROJECT_DIR$/component_alipay/component_alipay.iml" />
     </modules>
   </component>
 </project>

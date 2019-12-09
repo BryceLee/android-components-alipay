@@ -3,6 +3,21 @@ A android component of alipay.
 
 ## How to use?
 ```
+Step 1.Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+	dependencies {
+    	implementation 'com.github.BryceLee:android-components-alipay:1.0'
+    }
+```
+
+```
     AliPay aliPay = new AliPay(this);
     aliPay.pay(payInfo);//payInfo from your server end.
     aliPay.setPaymentResultListener(this);
